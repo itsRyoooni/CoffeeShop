@@ -34,81 +34,21 @@
 
             <div class="category">
                 <h3>Hot Coffee</h3>
-                <div class="cards">
-
-                    <div class="card">
-                        <div class="coffee-icon">☕</div>
-                        <h4>Cappuccino Coffee</h4>
-                        <p class="price">18 SAR</p>
-                        <button>Order</button>
-                    </div>
-
-                    <div class="card">
-                        <div class="coffee-icon">☕</div>
-                        <h4>Black Coffee</h4>
-                        <p class="price">15 SAR</p>
-                        <button>Order</button>
-                    </div>
-
-                    <div class="card">
-                        <div class="coffee-icon">☕</div>
-                        <h4>V60 Coffee</h4>
-                        <p class="price">22 SAR</p>
-                        <button>Order</button>
-                    </div>
-
-                </div>
+                <!-- تُملأ من Firebase (GET) -->
+                <div class="cards" id="hot-coffee"></div>
             </div>
 
             <div class="category">
                 <h3>Cold Coffee</h3>
-                <div class="cards">
-
-                    <div class="card">
-                        <div class="coffee-icon">🧊</div>
-                        <h4>Cold Coffee</h4>
-                        <p class="price">18 SAR</p>
-                        <button>Order</button>
-                    </div>
-
-                    <div class="card">
-                        <div class="coffee-icon">🧊</div>
-                        <h4>Iced Cappuccino</h4>
-                        <p class="price">20 SAR</p>
-                        <button>Order</button>
-                    </div>
-
-                </div>
+                <!-- تُملأ من Firebase (GET) -->
+                <div class="cards" id="cold-coffee"></div>
             </div>
         </section>
 
         <section id="bakery" class="section bakery-section">
             <h2>Bakery</h2>
-
-            <div class="cards">
-                <div class="card dessert">
-                    <div class="dessert-icon">🍫</div>
-                    <h4>Chocolate Cake</h4>
-                    <p class="price">40 SAR</p>
-                    <button>Order</button>
-                </div>
-
-                <div class="card dessert">
-                    <div class="dessert-icon">🍓</div>
-                    <h4>Raspberry Cake</h4>
-                    <p class="price">35 SAR</p>
-                    <button>Order</button>
-                </div>
-            </div>
-        </section>
-
-        <section id="login" class="login-section">
-            <h2>Login</h2>
-            <form>
-                <input type="email" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <button type="submit">Login</button>
-            </form>
+            <!-- تُملأ من Firebase (GET) -->
+            <div class="cards" id="bakery-cards"></div>
         </section>
     </main>
 
@@ -116,5 +56,6 @@
         <p>© 2026 Coffee Shop. All Rights Reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
